@@ -13,7 +13,7 @@ class MainServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('Hukh\Helloworld\HomeController');
+        //
     }
 
     /**
