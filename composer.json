@@ -1,6 +1,7 @@
 {
     "name": "hukh/helloworld",
     "description": "This will print hello world.",
+    "license": "MIT",
     "authors": [
         {
             "name": "hu kh",
