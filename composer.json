@@ -1,0 +1,23 @@
+{
+    "name": "hukh/helloworld",
+    "description": "This will print hello world.",
+    "authors": [
+        {
+            "name": "hu kh",
+            "email": "hk@ipunkt.biz"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Hukh\\Helloworld\\": "src/"
+        }
+    },
+    "extra": {
+        "providers": [
+            "Hukh\\Helloworld\\MainServiceProvider"
+        ]
+    }
+}
