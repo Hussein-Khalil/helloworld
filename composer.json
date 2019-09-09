@@ -17,8 +17,10 @@
         }
     },
     "extra": {
-        "providers": [
-            "Hukh\\Helloworld\\MainServiceProvider"
-        ]
+        "laravel": {
+            "providers": [
+                "Hukh\\Helloworld\\MainServiceProvider"
+            ]
+        }
     }
 }
